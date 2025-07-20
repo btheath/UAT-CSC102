@@ -1,0 +1,51 @@
+ /* There are 3 ways to set up CSS selectors - HTML element, 
+            - such as body;
+            - custom class - .redTxt
+            - by ID of the element */
+
+        /* body selector applies globally to the whole page */
+        body{
+            /* background-color is the back color of the webpage */
+            background-color: rgb(169, 119, 189);
+            /* color - is the text color */
+            color: rgb(22, 20, 20)
+        }
+        header{
+            padding: 20px;
+            text-align: center;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        h1{
+            background-color: rgb(80, 79, 79);
+            color: rgb(64, 2, 88);
+            padding: 20px;
+        }
+
+        /* this is a example custom class that will just make the text color red */
+        .redtext{
+            color: red;
+        }
+        #memeimage{
+            width: 300px;
+            /* this will allow our image to move around in the future 
+            position: absolute; */
+            left: 25%;
+            top: 25%;
+        }
+        nav{
+            height: 600px;
+            width: 200px;
+            float: left;
+            padding: 5px;
+            line-height: 30px;
+        }
+        footer{
+            text-align: left;
+            margin-right: 50px;
+
+        }

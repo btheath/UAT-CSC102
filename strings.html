@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Validation</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Data Input</h1>
+
+        </header>
+
+    <nav>
+            <a href="index.html">Home</a><br>
+            <a href="boards.html">Boards</a><br>
+            <a href="diceClimb.html">Game</a><br>
+            <a href="strings.html">Data Input</a><br>
+            <!-- Note: &nbsp for horizontal links spaced -->
+
+        </nav>
+    <main>
+
+            <div id="divMessage"></div>
+             <!-- the post option for method is secure, if used in combo with https; 
+             then run the onsubmit function specified when the form is submitted -->
+            <form method="post" onsubmit="return validateForm();">
+            <!-- label use with form inputs to explain what info is needed to the user and screen reader -->
+            <label for="txtFirstName">Full Name: </label>
+            <!-- standard textbox input for first name -->
+            <input type="text" id="txtFirstName" name="txtFirstName" placeholder="First Name">
+            <!-- better to do this linebreak with CSS -->
+            <br>
+            <label for="txtLastName">Last Name: </label>
+            <!-- text input for last name -->
+            <input type="text" id="txtLastName" name="txtLastName" placeholder="Last Name">
+            <br>
+            <label for="txtZip">Zip Code: </label>
+            <input type="text" id="txtZip" name="txtZip" placeholder="Zip Code">
+            <br>
+            <input type="submit" value="Submit">
+
+        </main>
+    <!-- calling formValidation.js script -->
+     <script src="formValidation.js">
+       
+    </script>
+
+    
+
+
+</body>
+</html>

@@ -8,7 +8,10 @@
             /* background-color is the back color of the webpage */
             background-color: rgb(169, 119, 189);
             /* color - is the text color */
-            color: rgb(22, 20, 20)
+            color: rgb(22, 20, 20);
+            margin: 0;
+            padding: 0;
+
         }
         header{
             padding: 20px;
@@ -24,16 +27,18 @@
             background-color: rgb(80, 79, 79);
             color: rgb(64, 2, 88);
             padding: 20px;
+            margin: 0;
         }
 
         /* this is a example custom class that will just make the text color red */
         .redtext{
             color: red;
         }
+         /* <img id="memeimage" src="Images/meme.jpeg" alt="meme image"> */
         #memeimage{
             width: 300px;
-            /* this will allow our image to move around in the future 
-            position: absolute; */
+            /* this will allow our image to move around in the future  */
+            position: absolute;
             left: 25%;
             top: 25%;
         }
@@ -45,7 +50,11 @@
             line-height: 30px;
         }
         footer{
-            text-align: left;
-            margin-right: 50px;
+            text-align: center;
+            margin-right: 200px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding-bottom: 10px;
 
         }

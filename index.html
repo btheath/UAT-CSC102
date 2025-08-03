@@ -37,9 +37,11 @@
 
         </nav>
 
-    </header>    
-  
-
+    </header>
+      <!-- this button will start the image moving  -->
+    <button id="btnStart" onclick="startMove();">Start Img Move</button>
+    <!-- this button will stop the image moving -->
+    <button id="btnStop" onclick="stopMove();" disabled="true">Stop Img Move</button>
     <!-- Paragraph, by default there will be spacing before/after the p tags. -->
     <p>
         <img id="memeimage" src="Images/meme.jpeg" alt="meme image">
@@ -54,6 +56,13 @@
         Tempe, AZ 85283
      </footer>
     <!-- Must have closing body tag at the bottom of the page -->
+
+    <!-- move to .js file -->
+
+    <!-- calling js file for script to move img -->
+     <script src="imgMoveScript.js">
+
+     </script>
 </body>
     <!-- closing html tag always at end of every file -->
 </html>

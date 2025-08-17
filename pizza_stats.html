@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Stats</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+      <header>
+        <h1>Pizza Stats</h1>
+            <nav>
+            <a href="index.html">Home</a><br>
+            <a href="boards.html">Boards</a><br>
+            <a href="diceClimb.html">Game</a><br>
+            <a href="strings.html">Data Input</a><br>
+            <a href="palindrome.html">Is It A Palindrome?!</a><br>
+            <a href="sound.html">Sound</a><br>
+            <a href="pizza_stats.html">Pizza Tracker</a><br>
+            <!-- Note: &nbsp for horizontal links spaced -->
+
+            </nav>
+        </header>
+        <main>
+            <h2>Pizza Chef Rankings</h2>
+            <h3>Total Pizzas Baked</h3>
+            <div id="divTotalPizzas">0</div>
+
+            <h3> Pizza Baker Level</h3>
+            <div id="divBakingLevel">Beginner</div>
+            <br>
+            <br>
+            <label for="numPizzas">Enter Pizzas Baked:</label>
+            <input type="number" id="numPizzas" name="numPizzas">
+            <button onclick="updateChefStats();">Update Stats</button>
+            
+            <br>
+            <br>
+            <h3>Toppings</h3>
+            <div id="divToppings"></div>
+            
+
+        </main>
+
+        <script src="pizza.js">         
+        </script>
+
+        
+
+</body>
+</html>

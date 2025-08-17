@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Sound</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Sound</h1>
+          <nav>
+            <a href="index.html">Home</a><br>
+            <a href="boards.html">Boards</a><br>
+            <a href="diceClimb.html">Game</a><br>
+            <a href="strings.html">Data Input</a><br>
+            <a href="palindrome.html">Is It A Palindrome?!</a><br>
+            <a href="sound.html">Sound</a><br>
+            <!-- Note: &nbsp for horizontal links spaced -->
+
+            </nav>
+    </header>
+    <main>
+        <!-- html way to add sound to your page -->
+         <!-- 
+        <audio controls>
+            <source src="us-lab-background.mp3" type="audio/mpeg">
+         </audio> -->
+
+         <button onclick="addSound();" id="btnAddSound"> Add Sound </button>
+         <br><br>
+         <button onclick="playSound();" id="btnPlay" hidden="true"> Play Sound </button>
+         <br><br>
+         <button onclick="pauseSound();"id="btnPause" hidden="true"> Pause Sound </button>
+         <br><br>
+    </main>
+    <script src="sound.js">
+       
+    </script>
+</body>
+</html>
